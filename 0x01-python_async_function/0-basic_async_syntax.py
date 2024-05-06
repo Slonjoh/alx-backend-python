@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
- The basics of async
+The basics of async
 """
 import asyncio
 import random
@@ -13,7 +13,7 @@ async def wait_random(max_delay: int = 10) -> float:
 
     Args:
     max_delay (int): Maximum delay in seconds. Default is 10 seconds.
- 
+
     Returns:
     float: The actual delay.
     """
